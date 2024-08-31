@@ -15,6 +15,16 @@ import cartIcon from "./cartIcon.svg"
 import lockIcon from "./lockIcon.svg"
 import logo from "./logo.png"
 import quote from "./quote.svg"
+import footerIcon from "./footerIcon.png"
+import facebook from "./facebook.svg"
+import x from "./x.svg"
+import linkedIn from "./linkedIn.svg"
+import instagram from "./instagram.svg"
+import googlePlay from "./googlePlay.svg"
+import apple from "./apple.svg"
+
+
+
 export {
     phoneIcon,
     loanIcon,
@@ -33,4 +43,12 @@ export {
     cartIcon,
     logo,
     quote,
+    footerIcon,
+    facebook,
+    x,
+    instagram,
+    linkedIn,
+    apple,
+    googlePlay,
+    
 }

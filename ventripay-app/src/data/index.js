@@ -17,6 +17,10 @@ import {
   cartIcon,
   acctIcon,
   quote,
+  linkedIn,
+  facebook,
+  instagram,
+  x,
 } from "../assets/icons";
 
 export const navLinks = [
@@ -116,37 +120,37 @@ export const testimonials = [
   },
 ];
 
-// export const footerLinks = [
-//   {
-//     title: "about",
-//     links: [
-//       { name: "our product", link: "/" },
-//       { name: "our product", link: "/" },
-//       { name: "our product", link: "/" },
-//       { name: "our product", link: "/" },
-//     ],
-//   },
-//   {
-//     title: "our services",
-//     links: [
-//       { name: "transactions", link: "/" },
-//       { name: "investment", link: "/" },
-//       { name: "cards", link: "/" },
-//       { name: "help center", link: "/" },
-//     ],
-//   },
-//   {
-//     title: "contact us",
-//     links: [
-//       { name: "+234080000000", link: "+234080000000" },
-//       { name: "ventripay@gmail.com", link: "mailto:ventripay@gmail.com" },
-//     ],
-//   },
-// ];
+export const footerLinks = [
+  {
+    title: "about",
+    links: [
+      { name: "our product", link: "/" },
+      { name: "privacy policy", link: "/" },
+      { name: "how it works", link: "/" },
+      { name: "career", link: "/" },
+    ],
+  },
+  {
+    title: "our services",
+    links: [
+      { name: "transactions", link: "/" },
+      { name: "investment", link: "/" },
+      { name: "cards", link: "/" },
+      { name: "help center", link: "/" },
+    ],
+  },
+  {
+    title: "contact us",
+    links: [
+      { name: "+234080000000", link: "+234080000000" },
+      { name: "ventripay@gmail.com", link: "mailto:ventripay@gmail.com" },
+    ],
+  },
+];
 
-// export const socialMedia = [
-//   { src: linkedIn, alt: "linkedIn logo" },
-//   { src: facebook, alt: "linkedIn logo" },
-//   { src: instagram, alt: "linkedIn logo" },
-//   { src: x, alt: "linkedIn logo" },
-// ];
+export const socialMedia = [
+  { src: linkedIn, alt: "linkedIn logo" },
+  { src: facebook, alt: "facebook logo" },
+  { src: instagram, alt: "instagram logo" },
+  { src: x, alt: "x logo" },
+];

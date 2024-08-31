@@ -1,18 +1,20 @@
-import Button from "./Button"
 
-// const Newsletter = () => {
-//   return (
-   
-//     <div className="container mx-auto p-4">
-//    <h2 className="text-2xl font-bold mb-4">Stay updated</h2>
-//    <form className="flex flex-wrap justify-center mb-4">
-//      <input type="email" className="w-full md:w-1/2 px-4 py-2 mb-4 md:mb-0" placeholder="Email address"/>
-//     <button class="w-full md:w-1/2 bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
-//       Subscribe
-//     </button>
-//   </form>
-//   <p className="text-gray-600 text-sm">Get the latest news and updates delivered to your inbox.</p>
-// </div>
-//   )
-// }
+
+const Newsletter = () => {
+  return (
+    <section className="max-container flex flex-col justify-center items-center py-5">
+        <div className="flex flex-col justify-center items-center">
+            <h1 className="text-4xl uppercase mb-4 text-center">join our newsletter</h1>
+            <p className="max-sm:max-w-sm text-center leading-7 capitalize mb-4">get latest news, updates, and special offers delivered straight to your inbox</p>
+        </div>
+        <div className="flex max-sm:flex-col max-sm:w-[60%] max-sm:gap-4">
+            <div>
+                <input type="text" placeholder="Enter you Email" className="border-2 border-[#003366] max-sm:w-full py-4 max-sm:rounded-lg rounded-l-lg w-full placeholder:text-center" />
+            </div>
+           <button  className="text-white bg-[#003366] w-28 max-sm:w-full max-sm:py-4 max-sm:rounded-lg rounded-r-lg">Subscribe</button>
+            
+        </div>
+    </section>
+  )
+}
 export default Newsletter

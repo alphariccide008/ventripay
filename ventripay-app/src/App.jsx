@@ -2,6 +2,8 @@ import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
 import CardBenefits from "./components/CardBenefits";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
+
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Newsletter from "./components/Newsletter";
@@ -20,6 +22,7 @@ export default function App() {
        <AboutUs/>
        <Testimonials/>
        <Newsletter/>
+       <Footer/>
     </div>
    
   )
