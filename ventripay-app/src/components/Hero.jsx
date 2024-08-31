@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section
-      className="bg-cover xl:h-[625px] sm:h-[80%] px-8 "
+      className="bg-cover bg-center  xl:h-[625px] sm:h-[80%] px-8 "
       style={{ backgroundImage: `url(${backgroundImg1})` }}
     >
       <div className=" max-container w-full flex xl:flex-row flex-col justify-between gap-12">

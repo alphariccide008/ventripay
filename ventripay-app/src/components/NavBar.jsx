@@ -1,12 +1,16 @@
 import { navLinks } from "../data";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { logo } from "../assets/icons";
 
 const NavBar = () => {
   return (
-    <header className=" w-full py-5 bg-blue-400 sm:px-16 px-8">
+    <header className=" w-full py-5  sm:px-16 px-8">
       <nav className="flex justify-between max-container items-center  ">
         <a href="/" className="text-[30px]">
-          ventripay 
+         <img src={logo} 
+         width={100}
+         height={100}
+         alt="logo" />
         </a>
 
         <ul className="flex flex-1 gap-16 justify-center max-xl:hidden">
@@ -20,11 +24,11 @@ const NavBar = () => {
         </ul>
 
         <div className="flex gap-10 max-xl:hidden text-lg ">
-          <a href="#" className=" flex items-center py-3 px-12 bg-blue-800 rounded-lg text-white">login</a>
-          <a href="#" className="flex items-center py-3 px-12 bg-slate-400 rounded-lg text-white">register</a>
+          <a href="#" className=" flex items-center py-3 px-12 text-blue border-2 border-[#003366] rounded-lg uppercase">login</a>
+          <a href="#" className="flex items-center py-3 px-12 bg-[#003366] rounded-lg text-white uppercase">register</a>
         </div>
         <div className=" hidden max-xl:block ">
-          <GiHamburgerMenu className="text-[30px]" />
+          <GiHamburgerMenu className="text-[30px] text-[#003366]" />
         </div>
       </nav>
     </header>
