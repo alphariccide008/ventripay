@@ -27,7 +27,7 @@ const NavBar = () => {
           <a href="#" className=" flex items-center py-3 px-12 text-blue border-2 border-[#003366] rounded-lg uppercase">login</a>
           <a href="#" className="flex items-center py-3 px-12 bg-[#003366] rounded-lg text-white uppercase">register</a>
         </div>
-        <div className=" hidden max-xl:block px-2 ">
+        <div className=" hidden max-xl:block ">
           <GiHamburgerMenu className="text-[30px] text-[#003366]" />
         </div>
       </nav>
