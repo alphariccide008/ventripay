@@ -87,7 +87,7 @@ const Footer = () => {
                {socialMedia.map((icon, index) => {
                  return (
                   <div className="" key={index}>
-                     <a href="#">
+                     <a href={icon.url} target="_blank">
                      <img src={icon.src} alt="" className="w-16" />
                      </a>
                   </div>

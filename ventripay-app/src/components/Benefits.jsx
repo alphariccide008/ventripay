@@ -10,7 +10,7 @@ const Benefits = () => {
         <h1 className="uppercase mb-8 text-2xl px-8 text-white text-center">
           benefits of choosing ventripay
         </h1>
-        <div className="  grid grid-cols lg:grid-cols-2 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-2 gap-8  ">
+        <div className=" grid grid-cols lg:grid-cols-2 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-2 gap-8  ">
           {benefits.map((benefit) => (
             <BenefitsCard key={benefit.title} {...benefit} />
           ))}
@@ -24,7 +24,7 @@ const Benefits = () => {
           </span>
         </h1>
        
-        <div className="grid lg:grid-cols-4 gap-4 w-[85%] place-items-center">
+        <div className="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 place-items-center gap-10">
           {
             steps.map((step,index)=>(
               <Steps key={index} 

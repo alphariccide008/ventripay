@@ -95,7 +95,7 @@ export const steps = [
   { no: "step1", icon: signupIcon, label: "sign up on the app" },
   { no: "step2", icon: setupIcon, label: "set up your account" },
   { no: "step3", icon: requestIcon, label: "request a virtual card" },
-  { no: "step4", icon: checkIcon, label: "you are all set to use your card" },
+  { no: "step4", icon: checkIcon, label:"you are all set to use your card" },
 ];
 
 export const cardBenefits = [
@@ -149,8 +149,8 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  { src: linkedIn, alt: "linkedIn logo" },
-  { src: facebook, alt: "facebook logo" },
-  { src: instagram, alt: "instagram logo" },
-  { src: x, alt: "x logo" },
+  { src: linkedIn,url:"https://www.linkedin.com/posts/ventripay_ventripay-securepayments-fintechsolutions-activity-7239193928955027459--yaL?utm_source=share&utm_medium=member_android", alt: "linkedIn logo" },
+  { src: facebook,url:"https://www.facebook.com/61561739670957/posts/pfbid02pQ8c5wXEKpb48478EWfPTLYX5DjV8cEDo4M48bDZVb9mvKKpSuHXyShk3s8GGJoSl/", alt: "facebook logo" },
+  { src: instagram, url:"https://www.instagram.com/p/C_uq6CXIF5v/?igsh=MWh0ZGV2cncyMmVhaQ==", alt: "instagram logo" },
+  { src: x, url:"https://x.com/ventripay/status/1833427098523886065?t=1i_NJweUx7jEN9eM2v7-zA&s=19", alt: "x logo" },
 ];
