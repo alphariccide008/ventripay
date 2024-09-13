@@ -33,7 +33,7 @@ export const navLinks = [
 export const trustedIcons = [
   {
     icon: edu,
-    name: "edubrige",
+    name: "Edu brige",
   },
   {
     icon: prop,

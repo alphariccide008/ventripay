@@ -18,11 +18,11 @@ const Partners = () => {
               <Button label="Get Started" />
             </div>
           </div>
-          <div className="max-sm:px-1 px-16 py-10 flex flex-col ">
+          <div className="max-sm:px-1 text-center px-16 py-10 flex flex-col ">
             <h1 className="lg:max-w-lg text-2xl mb-5 uppercase">
               trusted partners
             </h1>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center ">
             {
               trustedIcons.map((item)=>(
                 <PartnersCard key={item.name} {...item} />
