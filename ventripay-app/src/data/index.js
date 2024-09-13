@@ -83,11 +83,11 @@ export const benefits = [
   },
   {
     title: "easy online access",
-    desc: "With Ventripay you get to enjoy easy access to all our amazing features without facing any difficulties ",
+    desc: "With VentriPay you get to enjoy easy access to all our amazing features without facing any difficulties ",
   },
   {
     title: "competitive exchange rate",
-    desc: "Ventripay is always is always ready to give you our esteemed costumers the best rate out there for all your financial transactions.",
+    desc: "VentriPay is always ready to give you our esteemed costumers the best rate out there for all your financial transactions.",
   },
 ];
 

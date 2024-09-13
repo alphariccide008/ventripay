@@ -8,7 +8,7 @@ const CardBenefits = () => {
     <section className="px-8 sm:py-12 py-4 bg-cover sm:bg-middle md:bg-center xl:bg-right-top"
       style={{backgroundImage: `url(${sectionImg})`}}>
       <div className="max-container w-full flex flex-col justify-center items-center">
-        <h1 className="text-4xl mb-8 xl:mb-12 uppercase text-center text-white">
+        <h1 className="text-2xl mb-8 xl:mb-12 uppercase text-center text-white">
           virtual card benefits
           <span className="block">
           <hr className="w-44 mx-auto border-white " />
