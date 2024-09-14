@@ -52,18 +52,22 @@ const Footer = () => {
     //       </div>
     //     </footer>
         
-    <footer className="w-full bg-[#003366] sm:px-16 py-8 divide-y divide-zinc-500 mb-3">
+    <footer className="w-full bg-[#003366] sm:px-16 pb-8 divide-y divide-zinc-500 mb-3">
       <div className=" max-container px-4 grid max-lg:place-items-center xl:grid-cols-[500px_1fr]">
-        <div className="flex items-start gap-3 mb-10 xl:mb-0">
-        <img src={footerIcon} alt="logo" className="h-10 mt-1" />
-          <p className="text-white text-sm ">
-            ventripay
-            <br />
-            shaping the future of crossborder <br />
-            payment in africa.
+        <div className="md:flex items-center gap-3 mb-10 xl:mb-0">
+        <div className="flex-col justify-center ">
+        <div className="px-[40%] py-4">
+        <img src={footerIcon} alt="logo" className="h-10 mt-1 " />
+        </div>
+          <p className="text-white  text-center ">
+            <h3 className="font-bold  text-orange-500 py-2" style={{fontSize:'22px'}}>Ventri<span className="text-white">Pay</span></h3>
+            
+            <p className="text-sm">shaping the future of crossborder <br />payment in africa.</p>
+            
           </p>
         </div>
-        <div className="flex flex-1 flex-col lg:flex-row justify-between">
+        </div>
+        <div className="md:flex hidden flex-1 pt-16 flex-col lg:flex-row justify-between">
           {footerLinks.map((footer) => {
             return (
               <div key={footer.title} className="px-5 max-lg:text-center max-lg:mb-5">
@@ -82,13 +86,13 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <div className="max-container  flex flex-col xl:flex-row justify-between items-center ">
-             <div className="flex">
+      <div className="max-container flex flex-col xl:flex-row justify-between items-center ">
+             <div className="flex  ">
                {socialMedia.map((icon, index) => {
                  return (
-                  <div className="" key={index}>
-                     <a href={icon.url} target="_blank">
-                     <img src={icon.src} alt="" className="w-16" />
+                  <div className=" " key={index}>
+                     <a className="" href={icon.url} target="_blank" >
+                     <img src={icon.src} alt="" className="w-16 " />
                      </a>
                   </div>
                  );
